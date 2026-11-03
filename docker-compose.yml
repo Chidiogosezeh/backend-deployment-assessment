@@ -1,5 +1,6 @@
 services:
   backend:
+    image: karispearl/muchtodo-backend:latest
     build: .
     container_name: muchtodo-backend
     restart: unless-stopped
